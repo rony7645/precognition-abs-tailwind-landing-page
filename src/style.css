@@ -45,7 +45,7 @@
     @apply flex items-end pb-25 md:pb-[250px] bg-[url('/img/bg-mobile.png')] md:bg-[url('/img/bg.jpg')] bg-cover bg-bottom h-[1000px];
   }
   .team {
-    @apply py-20 bg-[url('/img/solutions-bg.png')] pb-[300px] pt-[400px] bg-cover bg-bottom z-0;
+    @apply  bg-[url('/img/solutions-bg.png')] pb-30 md:pb-[300px] pt-[400px] bg-cover bg-bottom z-0;
   }
   .menu-link { 
     @apply text-light hover:text-accent duration-300;
