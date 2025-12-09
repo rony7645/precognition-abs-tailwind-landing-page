@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>suhasjm_precog</title>
+</head>
+
+<body>
+
+  <!-- Header  -->
+  <header class="site-header">
+    <div class="container">
+      <div class="wrapper flex justify-between items-center">
+        <a class="site-logo" href="#"><img src="/img/logo.png" alt=""></a>
+        <nav class="md:flex items-center gap-10 hidden">
+          <ul class="menu-list flex gap-10">
+            <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+            <li class="menu-item"><a href="/#about-us" class="menu-link">About Us</a></li>
+            <li class="menu-item"><a href="/#solutions" class="menu-link">Solutions</a></li>
+            <li class="menu-item"><a href="/#team" class="menu-link">Team</a></li>
+          </ul>
+          <div class="header-btn">
+            <a href="#" class="primary-btn text-[18px] font-semibold py-3">Customer Portal</a>
+          </div>
+        </nav>
+
+        <!-- Mobile menu toggle  -->
+        <div class="mobile-toggle menu-icon md:hidden!" id="menu-icon">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Offcanvas  -->
+    <div id="sidebar"
+      class="fixed top-0 left-0 w-[320px] h-full bg-primary shadow transform -translate-x-full transition-transform duration-300 md:hidden">
+
+      <div class="p-5 border-b border-[#00000017] flex justify-between items-center">
+        <div class="mobile-site-logo w-12"><img src="/img/logo.png" alt=""></div>
+        <button id="closeSidebar" class="text-light text-[25px] cursor-pointer leading-0 p-0">✕</button>
+      </div>
+
+      <ul class="menu-list px-5 space-y-3 mt-5">
+        <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">About Us</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Solutions</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Team</a></li>
+      </ul>
+    </div>
+
+  </header>
+
+  <!-- hero -->
+  <section class="hero ">
+    <div class="container">
+      <div class="flex">
+        <div class="lg:w-1/2">
+          <h2 class="text-light text-center md:text-left text-[36px] leading-12 md:text-[48px] md:leading-[60px] md:w-[80%] lg:w-full ">
+            <span class="font-extralight">Supercharge</span> Your Risk &
+            Safety Investigators
+            with<span class="font-extralight"> AI Augmentation</span>
+          </h2>
+
+          <!-- list -->
+          <div class="flex flex-col gap-2 mt-3 md:mt-10 p-5 md:p-0">
+            <div class="flex gap-3">
+              <div class="min-w-[26px]"><img src="/img/icon-logo.png" alt=""></div>
+              <h6 class="text-light font-bold">Instant analysis across cases, platforms, and signals</h6>
+            </div>
+            <div class="flex gap-3">
+              <div class="min-w-[26px]"><img src="/img/icon-logo.png" alt=""></div>
+              <h6 class="text-light font-bold">Expert-level policy interpretation with multi-model verification</h6>
+            </div>
+            <div class="flex gap-3">
+              <div class="min-w-[26px]"><img src="/img/icon-logo.png" alt=""></div>
+              <h6 class="text-light font-bold">A copilot for every investigator, built for enterprise safety</h6>
+            </div>
+          </div>
+
+          <div class="mt-5 text-center md:text-left md:mt-15">
+            <a class="primary-btn" href="#">Get Early Access</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About us  -->
+  <section id="about-us"
+    class="about relative pt-[100px] pb-[250px] bg-[url('/img/about-bg.png')] bg-cover bg-bottom -mb-[250px]">
+    <div class="container">
+      <div class="md:flex items-center gap-25">
+        <div class="md:w-1/2">
+          <h2 class="text-center md:text-left">What makes Precognition Labs unique?</h2>
+          <div class="mt-10 space-y-2">
+            <h3 class="text-center md:text-left">Our Core Principle</h3>
+            <p class="text-center md:text-left">We believe AI should powerfully amplify human experts, not replace them.
+            </p>
+          </div>
+          <div class="mt-10">
+            <h3 class="text-center md:text-left">How We Transform Operations </h3>
+            <ul class="list-disc px-5 space-y-2 mt-10">
+              <li>We equip each of your human reviewers with
+                <strong>superhuman analytical abilities.</strong>
+              </li>
+              <li>We <strong>offer higher decision accuracy, faster resolutions, </strong>
+                and <strong>lower cost</strong>.</li>
+              <li>We don’t replace teams—we <strong>multiply their impact,</strong>
+                enabling higher quality at scale.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="md:w-1/2 mt-10 md:mt-0">
+          <img src="/img/about-img.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- team  -->
+  <section class="team" id="team">
+    <div class="container">
+      <div class="grid lg:grid-cols-[1fr_1.9fr] gap-5">
+        <div class=" space-y-5">
+          <h6 class="text-[18px] font-medium text-light text-center lg:text-left">About Us</h6>
+          <h2 class="text-light text-center lg:text-left">Proven Builders of Trust, Safety and AI Platform</h2>
+          <div class="border border-light"></div>
+          <p class="text-center italic font-medium text-light hidden md:block">We’ve built the systems that keep
+            billions of users safe
+            — now we’re
+            helping every B2C company do the same.</p>
+        </div>
+        <div class="">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-5 px-3 md:px-0">
+
+            <!-- team 1  -->
+            <div
+              class="bg-primary border-[5px] border-border rounded-lg flex flex-col items-center p-5 mt-20 lg:mt-0 relative">
+              <div class="mb-2 -mt-22"><img src="/img/suhas.png" alt=""></div>
+              <h5 class="text-light font-bold">Suhas Manangi</h5>
+              <h5 class="text-light">Co-Founder & CEO</h5>
+              <p class="text-light mt-7 mb-8">Suhas Manangi spent his career leading safety, integrity, and AI/ML
+                initiatives
+                across Snap, Airbnb,
+                Amazon, Lyft, and Microsoft - most recently as Snap’s Head of Product for Trust & Safety and previously
+                overseeing Airbnb’s AI/ML platform for Trust. After years building defenses for some of the world’s
+                largest online ecosystems, he founded Precognition Labs, driven by a passion to create a safer internet
+                for everyone.</p>
+              <div class="bg-light rounded-lg p-3 absolute -bottom-8 "><img src="/img/social-suhas.png" alt=""></div>
+            </div>
+
+            <!-- team 2  -->
+            <div
+              class="bg-primary border-[5px] border-border rounded-lg flex flex-col items-center p-5 relative mt-25 lg:mt-0">
+              <div class="mb-2 -mt-22"><img src="/img/fang.png" alt=""></div>
+              <h5 class="text-light font-bold">Xiuduan Fang</h5>
+              <h5 class="text-light">Co-Founder & CTO</h5>
+              <p class="text-light mt-7 ">Former Head of Platform Integrity Engineering at Snap and long-time Google
+                engineering leader, Xiuduan Fang has built safety and data systems used by billions of users. Driven by
+                a mission to transform how platforms protect their communities, she co-founded Precognition Labs and
+                serves as its CTO.</p>
+              <div class="bg-light rounded-lg p-2 absolute -bottom-8 "><img src="/img/social-fang.png" alt=""></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <p class="text-center italic font-medium text-light mt-20 md:hidden px-10">We’ve built the systems that keep
+        billions of users safe
+        — now we’re
+        helping every B2C company do the same.</p>
+    </div>
+  </section>
+
+  <!-- solutions -->
+  <section class=" relative solutions bg-[url('/img/wavy_lines_gradient_background.png')] bg-cover bg-bottom bg-no-repeat pb-70 pt-25 -mb-65" id="solutions">
+    <div class="container">
+      <div class="text-center mb-10">
+        <h2>Our Solutions</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-primary p-6 pb-15 rounded-lg solution-card">
+          <div class="solution-card-head space-y-1">
+            <h3 class="text-light text-[24px] font-bold">PreCog Dash</h3>
+            <p class="text-light">100X Productivity. Your experts, multiplied.</p>
+          </div>
+
+          <div class="solution-card-body border-t-1 border-b-1 border-border my-5 py-5">
+            <h5 class="text-light font-bold">What it does:</h5>
+            <ul class="list-disc p-5 space-y-2 text-light">
+              <li>Reads and analyzes cases like a human experts do</li>
+              <li>Connects with all your data, signals, and tools</li>
+              <li>Makes recommendations and takes actions on your behalf</li>
+            </ul>
+          </div>
+          <div class="mt-12">
+            <h3 class="text-[22px] font-normal text-light text-center">Cut case review time from days to seconds with
+              better decision accuracy.</h3>
+          </div>
+        </div>
+        <div class="bg-primary p-6 rounded-lg solution-card">
+          <div class="solution-card-head space-y-1">
+            <h3 class="text-light text-[24px] font-bold">PreCog Dash</h3>
+            <p class="text-light">100X Productivity. Your experts, multiplied.</p>
+          </div>
+
+          <div class="solution-card-body border-t-1 border-b-1 border-border my-5 py-5">
+            <h5 class="text-light font-bold">What it does:</h5>
+            <ul class="list-disc p-5 space-y-2 text-light">
+              <li>Reads and analyzes cases like a human experts do</li>
+              <li>Connects with all your data, signals, and tools</li>
+              <li>Makes recommendations and takes actions on your behalf</li>
+            </ul>
+          </div>
+          <div class="mt-12">
+            <h3 class="text-[22px] font-normal text-light text-center">Cut case review time from days to seconds with
+              better decision accuracy.</h3>
+          </div>
+        </div>
+        <div class="bg-primary p-6 rounded-lg solution-card">
+          <div class="solution-card-head space-y-1">
+            <h3 class="text-light text-[24px] font-bold">PreCog Dash</h3>
+            <p class="text-light">100X Productivity. Your experts, multiplied.</p>
+          </div>
+
+          <div class="solution-card-body border-t-1 border-b-1 border-border my-5 py-5">
+            <h5 class="text-light font-bold">What it does:</h5>
+            <ul class="list-disc p-5 space-y-2 text-light">
+              <li>Reads and analyzes cases like a human experts do</li>
+              <li>Connects with all your data, signals, and tools</li>
+              <li>Makes recommendations and takes actions on your behalf</li>
+            </ul>
+          </div>
+          <div class="mt-12">
+            <h3 class="text-[22px] font-normal text-light text-center">Cut case review time from days to seconds with
+              better decision accuracy.</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container pt-30">
+      <div class="flex flex-col md:flex-row items-center gap-10 md:gap-25">
+        <div class="md:w-1/2">
+          <h2 class="text-center md:text-left">Why PreCogs</h2>
+          <div class="mt-4 md:mt-10">
+            <ul class="list-disc px-5 space-y-2 mt-10">
+              <li>Human-level judgment, superhuman scale </li>
+              <li>Real actions, not just insights</li>
+              <li>Enterprise-grade control and auditability</li>
+              <li>Deploy in minutes, not months</li>
+              <li>Gets smarter with every case</li>
+            </ul>
+            <div class="mt-10 hidden md:block">
+              <a class="primary-btn" href="#">Get Early Access</a>
+            </div>
+          </div>
+        </div>
+        <div class="md:w-1/2">
+          <img src="/img/6.png" alt="">
+          <div class="mt-10 md:hidden text-center">
+            <a class="primary-btn" href="#">Get Early Access</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer  -->
+  <footer>
+    <div class="container">
+      <img class="site-logo mx-auto md:mx-0 mb-8 md:-mb-15" src="/img/logo.png" alt="">
+      <div class="text-center">
+        <div class="nav space-x-5">
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Solutions</a>
+          <a href="#">Team</a>
+        </div>
+        <div class="text-light mt-3">
+          <p>© 2025 Precognition Labs. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
